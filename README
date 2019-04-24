@@ -1,0 +1,14 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This library is created by Daniel Sharp, an undergraduate at Virginia Polytechnic
+Institute and State University (Virginia Tech). It was created as side project to
+delve into the details of Numerical Linear Algebra using elementary graduate lev-
+el algorithms such as QR Decomposition using Householder Reflections, the single 
+shifted QR Eigenvalue algorithm, etc. Many functions (methods) are included that
+primarily work for real matrices, though everything is stored as complex objects.
+Many functions that primarily work for real matrices, however, can be used for
+the complex analog, or at least at a rudimentary level. For example, the QR sing-
+le shifted eigenvalue algorithm that is included is not intended for nonsymmetric
+matrices, but can give rough approximations for their eigenvalues given small di-
+mensions. This is not intended to be the best library, rather following the logic
+a student could understand. Enjoy as need be.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
